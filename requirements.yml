@@ -1,0 +1,13 @@
+---
+- src: andrewrothstein.proxify
+  version: v1.0.20
+- src: andrewrothstein.sudoers
+  version: v1.0.3
+- src: andrewrothstein.git
+  version: v1.0.2
+- src: andrewrothstein.emacs
+  version: v1.0.2
+- src: andrewrothstein.supervisord
+  version: v1.0.4
+- src: andrewrothstein.sshd
+  version: v1.0.0

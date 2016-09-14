@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  roles:
+    - role: andrewrothstein.proxify
+    - role: andrewrothstein.sudoers
+    - role: andrewrothstein.sshd
+    - role: andrewrothstein.git
+    - role: andrewrothstein.emacs
