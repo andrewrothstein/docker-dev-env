@@ -1,0 +1,1 @@
+docker run --rm -it -v /C/foo:/C/foo dev-env bash -l

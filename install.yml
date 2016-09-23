@@ -1,8 +1,20 @@
 ---
 - hosts: localhost
+  tasks:
+    - command: apt-get update -y
+    - command: apt-get upgrade -y
+
+- hosts: localhost
   roles:
     - role: andrewrothstein.proxify
     - role: andrewrothstein.sudoers
     - role: andrewrothstein.sshd
     - role: andrewrothstein.git
+
+- hosts: localhost
     - role: andrewrothstein.emacs
+    - role: andrewrothstein.docker-binaries
+
+- hosts: localhost
+  tasks:
+    - command: 

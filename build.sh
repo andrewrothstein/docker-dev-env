@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-docker build -t dev-env .
+docker build -t andrewrothstein/dev-env:build .
