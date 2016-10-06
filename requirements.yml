@@ -1,13 +1,11 @@
 ---
-- src: andrewrothstein.proxify
-  version: v1.0.20
-- src: andrewrothstein.sudoers
+- src: andrewrothstein.emacs
   version: v1.0.3
 - src: andrewrothstein.git
   version: v1.0.2
-- src: andrewrothstein.emacs
-  version: v1.0.3
-- src: andrewrothstein.supervisord
-  version: v1.0.4
-- src: andrewrothstein.sshd
+- src: andrewrothstein.nettools
+  version: v1.0.2
+- src: andrewrothstein.sshd-supervisord
+  version: v1.0.0
+- src: spk83.dumb-init
   version: v1.0.0

@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+    - name: fetching upgrades...
+      shell: apt-get update -y && apt-get upgrade -y
+- hosts: localhost
+  roles:
+    - role: andrewrothstein.git
+    - role: andrewrothstein.nettools
+    - role: andrewrothstein.emacs
+    - role: spk83.dumb-init
+    - role: andrewrothstein.sshd-supervisord
