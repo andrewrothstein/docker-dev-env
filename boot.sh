@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 ssh-keygen -A
-/usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+mkdir -p /var/run/sshd
+/usr/local/bin/supervisord -c /etc/supervisor/supervisord.conf
