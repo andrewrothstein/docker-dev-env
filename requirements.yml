@@ -3,6 +3,10 @@
   version: v1.0.3
 - src: andrewrothstein.git
   version: v1.0.2
+- src: andrewrothstein.hub
+  version: v1.0.1
+- src: andrewrothstein.corkscrew
+  version: v1.0.2
 - src: andrewrothstein.nettools
   version: v1.0.2
 - src: andrewrothstein.sshd-supervisord

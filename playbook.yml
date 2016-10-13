@@ -5,8 +5,10 @@
       shell: apt-get update -y && apt-get upgrade -y
 - hosts: localhost
   roles:
-    - role: andrewrothstein.git
-    - role: andrewrothstein.nettools
-    - role: andrewrothstein.emacs
-    - role: spk83.dumb-init
-    - role: andrewrothstein.sshd-supervisord
+    - andrewrothstein.git
+    - andrewrothstein.hub
+    - andrewrothstein.corkscrew
+    - andrewrothstein.nettools
+    - andrewrothstein.emacs
+    - spk83.dumb-init
+    - andrewrothstein.sshd-supervisord
