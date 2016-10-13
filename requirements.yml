@@ -4,7 +4,7 @@
 - src: andrewrothstein.git
   version: v1.0.2
 - src: andrewrothstein.hub
-  version: v1.0.1
+  version: v1.0.2
 - src: andrewrothstein.corkscrew
   version: v1.0.2
 - src: andrewrothstein.nettools
