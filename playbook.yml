@@ -3,6 +3,7 @@
   tasks:
     - name: fetching upgrades...
       shell: apt-get update -y && apt-get upgrade -y
+
 - hosts: localhost
   roles:
     - andrewrothstein.git
@@ -12,3 +13,4 @@
     - andrewrothstein.emacs
     - spk83.dumb-init
     - andrewrothstein.sshd-supervisord
+    - andrewrothstein.emacs-daemon-supervisord

@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-UPSTREAM_CONTAINER=andrewrothstein/docker-ansible:ubuntu_xenial
-docker pull $UPSTREAM_CONTAINER
+docker pull andrewrothstein/docker-ansible:ubuntu_xenial
 docker build -t andrewrothstein/docker-dev-env .
 
