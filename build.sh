@@ -1,4 +1,3 @@
 #!/usr/bin/env sh
-docker pull andrewrothstein/docker-ansible:ubuntu_xenial
-docker build -t andrewrothstein/docker-dev-env .
-
+docker pull andrewrothstein/docker-supervisord
+docker build -t docker-dev-env .

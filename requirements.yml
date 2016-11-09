@@ -10,7 +10,7 @@
 - src: andrewrothstein.supervisord
   version: v1.0.5
 - src: andrewrothstein.sshd-supervisord
-  version: v1.0.1
+  version: v1.0.2
 - src: andrewrothstein.emacs-daemon-supervisord
   version: v1.0.0
 - src: spk83.dumb-init
