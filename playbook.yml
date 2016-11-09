@@ -1,16 +1,9 @@
 ---
 - hosts: localhost
-  tasks:
-    - name: fetching upgrades...
-      shell: apt-get update -y && apt-get upgrade -y
-
-- hosts: localhost
   roles:
     - andrewrothstein.git
     - andrewrothstein.hub
     - andrewrothstein.corkscrew
     - andrewrothstein.nettools
-    - spk83.dumb-init
-    - andrewrothstein.supervisord
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.emacs-daemon-supervisord
