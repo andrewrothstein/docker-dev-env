@@ -10,7 +10,7 @@
     - andrewrothstein.hub
     - andrewrothstein.corkscrew
     - andrewrothstein.nettools
-    - andrewrothstein.emacs
     - spk83.dumb-init
+    - andrewrothstein.supervisord
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.emacs-daemon-supervisord
