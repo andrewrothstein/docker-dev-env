@@ -1,0 +1,36 @@
+---
+machine:
+  services:
+    - docker
+
+dependencies:
+  pre:
+    - sudo -H pip install --upgrade pip
+    - sudo -H pip install circleci-helpers
+
+test:
+  override:
+    - ? | 
+          circle-matrix <<"EHD"
+            env:
+              - OS=alpine_edge
+              - OS=centos_7
+              - OS=debian_jessie
+              - OS=fedora_23
+              - OS=fedora_24
+              - OS=ubuntu_trusty
+              - OS=ubuntu_xenial
+
+            before_script:
+              - export TARGET_USER="andrewrothstein"
+              - export TARGET_APP="docker-dev-env"
+              - export TARGET_CONTAINER=${TARGET_USER}/${TARGET_APP}_$OS
+
+            script:
+              - docker build -t $TARGET_CONTAINER $OS
+
+            after_script:
+              - docker images $TARGET_CONTAINER
+          EHD
+      :
+        parallel: true

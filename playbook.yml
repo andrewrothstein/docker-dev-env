@@ -5,5 +5,6 @@
     - andrewrothstein.hub
     - andrewrothstein.corkscrew
     - andrewrothstein.nettools
+    - andrewrothstein.supervisord
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.emacs-daemon-supervisord
