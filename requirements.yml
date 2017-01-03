@@ -7,6 +7,8 @@
   version: v1.0.2
 - src: andrewrothstein.nettools
   version: v1.0.2
+- src: andrewrothstein.docker-binaries
+  version: v1.0.2
 - src: andrewrothstein.sshd-supervisord
   version: v1.0.4
 - src: andrewrothstein.emacs-daemon-supervisord
