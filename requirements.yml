@@ -12,4 +12,4 @@
 - src: andrewrothstein.sshd-supervisord
   version: v1.0.4
 - src: andrewrothstein.emacs-daemon-supervisord
-  version: v1.0.0
+  version: v1.0.1
