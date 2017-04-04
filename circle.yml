@@ -29,9 +29,9 @@ test:
               - >-
                 dcb
                 --snippetsdir .
-                --snippets Dockerfile.onbuild snippet.j2
+                --snippet from.j2 ansible-playbook.j2
                 --upstreamgroup andrewrothstein
-                --upstreamapp docker-ansible-onbuild
+                --upstreamapp docker-supervisord
                 --write ${OS}
                 --build ${OS}
                 --push ${OS}
