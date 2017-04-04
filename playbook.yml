@@ -3,7 +3,6 @@
   roles:
     - andrewrothstein.git
     - andrewrothstein.hub
-    - andrewrothstein.corkscrew
     - andrewrothstein.nettools
     - andrewrothstein.docker-binaries
     - andrewrothstein.sshd-supervisord
