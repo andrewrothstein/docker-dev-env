@@ -1,7 +1,7 @@
 ---
-- src: andrewrothstein.upgrade-pkgs
+- src: andrewrothstein.pkg-upgrade
 - src: andrewrothstein.docker-binaries
-  version: v1.0.5
+  version: v1.0.6
 - src: andrewrothstein.emacs-daemon-supervisord
   version: v1.0.2
 - src: andrewrothstein.git
@@ -9,6 +9,6 @@
 - src: andrewrothstein.hub
   version: v1.0.4
 - src: andrewrothstein.nettools
-  version: v1.0.4
+  version: v1.0.5
 - src: andrewrothstein.sshd-supervisord
   version: v1.0.5
