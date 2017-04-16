@@ -1,6 +1,7 @@
 ---
 - hosts: localhost
   roles:
+    - andrewrothstein.upgrade-pkgs
     - andrewrothstein.git
     - andrewrothstein.hub
     - andrewrothstein.nettools

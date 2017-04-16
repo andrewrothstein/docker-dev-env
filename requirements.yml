@@ -1,4 +1,5 @@
 ---
+- src: andrewrothstein.upgrade-pkgs
 - src: andrewrothstein.docker-binaries
   version: v1.0.5
 - src: andrewrothstein.emacs-daemon-supervisord
