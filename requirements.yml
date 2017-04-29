@@ -3,7 +3,7 @@
 - src: andrewrothstein.docker-binaries
   version: v1.0.6
 - src: andrewrothstein.emacs-daemon-supervisord
-  version: v1.0.2
+  version: v1.0.3
 - src: andrewrothstein.git
   version: v3.0.0
 - src: andrewrothstein.hub
@@ -11,4 +11,4 @@
 - src: andrewrothstein.nettools
   version: v1.0.5
 - src: andrewrothstein.sshd-supervisord
-  version: v1.0.5
+  version: v1.0.6
