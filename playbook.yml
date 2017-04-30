@@ -8,3 +8,6 @@
     - andrewrothstein.docker-binaries
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.emacs-daemon-supervisord
+    - andrewrothstein.kubectl
+    - andrewrothstein.kubernetes-helm
+    - andrewrothstein.jq
