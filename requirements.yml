@@ -15,6 +15,6 @@
 - src: andrewrothstein.kubectl
   version: v1.0.9
 - src: andrewrothstein.kubernetes-helm
-  version: v1.0.5
+  version: v1.0.6
 - src: andrewrothstein.jq
   version: v1.0.1
