@@ -1,20 +1,20 @@
 ---
 - src: andrewrothstein.pkg-upgrade
 - src: andrewrothstein.docker-binaries
-  version: v1.0.6
+  version: v1.0.7
 - src: andrewrothstein.emacs-daemon-supervisord
-  version: v1.0.3
+  version: v1.0.4
 - src: andrewrothstein.git
-  version: v3.0.0
+  version: v3.0.1
 - src: andrewrothstein.hub
   version: v1.0.4
 - src: andrewrothstein.nettools
   version: v1.0.5
 - src: andrewrothstein.sshd-supervisord
-  version: v1.0.6
+  version: v1.0.7
 - src: andrewrothstein.kubectl
-  version: v1.0.9
+  version: v1.0.12
 - src: andrewrothstein.kubernetes-helm
-  version: v1.0.6
+  version: v1.0.7
 - src: andrewrothstein.jq
-  version: v1.0.1
+  version: v1.0.2
