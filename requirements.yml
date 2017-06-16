@@ -9,7 +9,7 @@
 - src: andrewrothstein.git
   version: v3.0.1
 - src: andrewrothstein.hub
-  version: v1.0.5
+  version: v1.0.6
 - src: andrewrothstein.nettools
   version: v1.0.5
 - src: andrewrothstein.jq
@@ -17,7 +17,7 @@
 - src: andrewrothstein.vault
   version: v1.1.4
 - src: andrewrothstein.docker-binaries
-  version: v1.0.8
+  version: v1.0.9
 - src: andrewrothstein.docker-compose
   version: v1.0.5
 - src: andrewrothstein.emacs
