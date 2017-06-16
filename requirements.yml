@@ -19,7 +19,7 @@
 - src: andrewrothstein.docker-binaries
   version: v1.0.9
 - src: andrewrothstein.docker-compose
-  version: v1.0.5
+  version: v1.0.6
 - src: andrewrothstein.emacs
   version: v2.0.3
 - src: andrewrothstein.emacs-config
