@@ -2,12 +2,16 @@
 - hosts: localhost
   roles:
     - andrewrothstein.pkg-upgrade
+    - andrewrothstein.gcc-toolbox
     - andrewrothstein.git
     - andrewrothstein.hub
     - andrewrothstein.nettools
+    - andrewrothstein.jq
     - andrewrothstein.docker-binaries
     - andrewrothstein.sshd-supervisord
-    - andrewrothstein.emacs-daemon-supervisord
     - andrewrothstein.kubectl
     - andrewrothstein.kubernetes-helm
-    - andrewrothstein.jq
+    - andrewrothstein.node
+    - andrewrothstein.go-dev
+    - andrewrothstein.scala
+
