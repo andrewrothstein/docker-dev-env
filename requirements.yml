@@ -1,5 +1,7 @@
 ---
 - src: andrewrothstein.pkg-upgrade
+- src: andrewrothstein.tmux
+  verison: v1.0.0
 - src: andrewrothstein.gcc-toolbox
   version: v1.0.5
 - src: andrewrothstein.git
