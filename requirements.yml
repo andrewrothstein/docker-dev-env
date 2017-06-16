@@ -32,3 +32,5 @@
   version: v2.1.2
 - src: andrewrothstein.scala
   version: v1.2.0
+- src: andrewrothstein.miniconda
+  version: v5.0.0
