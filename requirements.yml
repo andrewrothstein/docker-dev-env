@@ -38,3 +38,7 @@
   version: v5.0.0
 - src: andrewrothstein.dcb
   version: v1.0.0
+- src: andrewrothstein.packer
+  version: v2.0.9
+- src: andrewrothstein.terraform
+  version: v2.1.19

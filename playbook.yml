@@ -26,3 +26,7 @@
       miniconda_make_sys_default: True
       miniconda_cleanup: True
     - role: andrewrothstein.dcb
+    - role: andrewrothstein.packer
+      packer_cleanup: True
+    - role: andrewrothstein.terraform
+      terraform_cleanup: True
