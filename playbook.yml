@@ -5,17 +5,23 @@
     - andrewrothstein.tmux
     - andrewrothstein.gcc-toolbox
     - andrewrothstein.git
-    - andrewrothstein.hub
+    - role: andrewrothstein.hub
+      hub_cleanup: True
     - andrewrothstein.nettools
     - andrewrothstein.jq
-    - andrewrothstein.docker-binaries
+    - role: andrewrothstein.vault
+      vault_cleanup: True
+    - role: andrewrothstein.docker-binaries
+      docker_binaries_cleanup: True
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.kubectl
-    - andrewrothstein.kubernetes-helm
-    - andrewrothstein.node
+    - role: andrewrothstein.kubernetes-helm
+      kubernetes_helm_cleanup: True
+    - role: andrewrothstein.node
+      node_cleanup: True
     - andrewrothstein.go-dev
-    - andrewrothstein.scala
+    - role: andrewrothstein.scala
+      sbt_cleanup: True
     - role: andrewrothstein.miniconda
       miniconda_make_sys_default: True
       miniconda_cleanup: True
-

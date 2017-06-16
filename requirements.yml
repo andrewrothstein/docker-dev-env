@@ -7,15 +7,17 @@
 - src: andrewrothstein.git
   version: v3.0.1
 - src: andrewrothstein.hub
-  version: v1.0.4
+  version: v1.0.5
 - src: andrewrothstein.nettools
   version: v1.0.5
 - src: andrewrothstein.jq
   version: v1.0.2
+- src: andrewrothstein.vault
+  version: v1.1.4
 - src: andrewrothstein.docker-binaries
-  version: v1.0.7
+  version: v1.0.8
 - src: andrewrothstein.docker-compose
-  version: v1.0.4
+  version: v1.0.5
 - src: andrewrothstein.emacs
   version: v2.0.3
 - src: andrewrothstein.emacs-config
@@ -25,12 +27,12 @@
 - src: andrewrothstein.kubectl
   version: v1.0.13
 - src: andrewrothstein.kubernetes-helm
-  version: v1.0.8
+  version: v1.0.9
 - src: andrewrothstein.node
-  version: v1.0.1
+  version: v1.0.2
 - src: andrewrothstein.go-dev
   version: v2.1.2
 - src: andrewrothstein.scala
-  version: v1.2.0
+  version: v2.0.1
 - src: andrewrothstein.miniconda
   version: v5.0.0
