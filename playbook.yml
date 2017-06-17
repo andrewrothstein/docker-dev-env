@@ -2,7 +2,7 @@
 - hosts: localhost
   roles:
     - andrewrothstein.pkg-upgrade
-    - andreworthstein.bash
+    - andrewrothstein.bash
     - andrewrothstein.tmux
     - andrewrothstein.gcc-toolbox
     - andrewrothstein.git
