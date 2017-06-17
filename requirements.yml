@@ -25,7 +25,7 @@
 - src: andrewrothstein.emacs-config
   version: v1.0.3
 - src: andrewrothstein.sshd-supervisord
-  version: v1.0.7
+  version: v1.0.8
 - src: andrewrothstein.kubectl
   version: v1.0.13
 - src: andrewrothstein.kubernetes-helm
