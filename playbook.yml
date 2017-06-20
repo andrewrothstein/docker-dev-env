@@ -31,3 +31,4 @@
       packer_cleanup: True
     - role: andrewrothstein.terraform
       terraform_cleanup: True
+    - andrewrothstein.cfssl
