@@ -14,6 +14,9 @@
       vault_cleanup: True
     - role: andrewrothstein.docker-binaries
       docker_binaries_cleanup: True
+    - andrewrothstein.docker-compose
+    - andrewrothstein.emacs
+    - andrewrothstein.emacs-config
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.kubectl
     - role: andrewrothstein.kubernetes-helm
