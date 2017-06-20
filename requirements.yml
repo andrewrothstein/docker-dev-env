@@ -46,3 +46,5 @@
   version: v2.1.19
 - src: andrewrothstein.cfssl
   version: v2.0.0
+- src: andrewrothstein.lastpass-cli
+  version: v1.0.0

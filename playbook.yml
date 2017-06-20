@@ -35,3 +35,4 @@
     - role: andrewrothstein.terraform
       terraform_cleanup: True
     - andrewrothstein.cfssl
+    - andrewrothstein.lastpass-cli
