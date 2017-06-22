@@ -10,6 +10,7 @@
       hub_cleanup: True
     - andrewrothstein.nettools
     - andrewrothstein.jq
+    - andrewrothstein.galaxify
     - role: andrewrothstein.vault
       vault_cleanup: True
     - role: andrewrothstein.docker-binaries
