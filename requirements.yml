@@ -15,38 +15,38 @@
 - src: andrewrothstein.jq
   version: v1.0.2
 - src: andrewrothstein.galaxify
-  version: v1.0.20
+  version: v1.0.21
 - src: andrewrothstein.vault
   version: v1.1.4
 - src: andrewrothstein.docker-binaries
-  version: v1.0.9
+  version: v1.0.11
 - src: andrewrothstein.docker-compose
-  version: v1.0.6
+  version: v1.0.7
 - src: andrewrothstein.emacs
-  version: v2.0.3
+  version: v2.0.4
 - src: andrewrothstein.emacs-config
-  version: v1.0.4
+  version: v1.0.5
 - src: andrewrothstein.sshd-supervisord
   version: v1.0.8
 - src: andrewrothstein.kubectl
-  version: v1.0.14
+  version: v1.0.15
 - src: andrewrothstein.kubernetes-helm
-  version: v1.0.9
+  version: v1.0.11
 - src: andrewrothstein.node
-  version: v1.0.2
+  version: v1.0.4
 - src: andrewrothstein.go-dev
   version: v2.1.2
 - src: andrewrothstein.scala
-  version: v2.0.1
+  version: v2.0.2
 - src: andrewrothstein.miniconda
-  version: v5.0.0
+  version: v5.0.1
 - src: andrewrothstein.dcb
   version: v1.0.0
 - src: andrewrothstein.packer
-  version: v2.0.9
+  version: v2.0.13
 - src: andrewrothstein.terraform
-  version: v2.1.19
+  version: v2.1.21
 - src: andrewrothstein.cfssl
-  version: v2.0.0
+  version: v2.0.1
 - src: andrewrothstein.lastpass-cli
   version: v1.0.0
