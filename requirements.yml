@@ -17,7 +17,7 @@
 - src: andrewrothstein.galaxify
   version: v1.0.23
 - src: andrewrothstein.vault
-  version: v1.2.1
+  version: v1.2.2
 - src: andrewrothstein.docker-binaries
   version: v1.1.0
 - src: andrewrothstein.docker-compose
