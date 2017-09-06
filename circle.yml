@@ -16,14 +16,17 @@ test:
               - OS=fedora_23
               - OS=fedora_24
               - OS=fedora_25
+              - OS=fedora_26
+              - OS=archlinux_latest
               - OS=debian_jessie
+              - OS=debian_stretch
               - OS=ubuntu_xenial
 
             script:
               - >-
                 dcb
                 --snippetsdir .
-                --snippet from.j2 ansible-playbook.j2
+                --snippet from.j2 ansible-playbook.j2 ports.j2
                 --upstreamgroup andrewrothstein
                 --upstreamapp docker-supervisord
                 --write ${OS}
