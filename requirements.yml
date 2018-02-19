@@ -22,8 +22,8 @@
   version: v1.1.2
 - src: andrewrothstein.docker-compose
   version: v1.2.1
-- src: andrewrothstein.emacs
-  version: v2.0.5
+- src: andrewrothstein.emacs-build
+  version: v1.0.2
 - src: andrewrothstein.emacs-config
   version: v1.0.5
 - src: andrewrothstein.sshd-supervisord
