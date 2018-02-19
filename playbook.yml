@@ -13,7 +13,7 @@
     - andrewrothstein.vault
     - andrewrothstein.docker-binaries
     - andrewrothstein.docker-compose
-    - andrewrothstein.emacs
+    - andrewrothstein.emacs-build
     - andrewrothstein.emacs-config
     - andrewrothstein.sshd-supervisord
     - andrewrothstein.kubectl
