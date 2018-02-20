@@ -25,7 +25,7 @@
 - src: andrewrothstein.emacs-build
   version: v1.0.2
 - src: andrewrothstein.emacs-config
-  version: v1.0.5
+  version: v1.0.6
 - src: andrewrothstein.sshd-supervisord
   version: v1.0.8
 - src: andrewrothstein.kubectl
