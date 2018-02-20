@@ -9,7 +9,7 @@
 - src: andrewrothstein.git
   version: v3.0.1
 - src: andrewrothstein.hub
-  version: v1.0.7
+  version: v1.0.8
 - src: andrewrothstein.nettools
   version: v1.0.6
 - src: andrewrothstein.jq
