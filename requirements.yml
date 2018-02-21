@@ -35,7 +35,7 @@
 - src: andrewrothstein.node
   version: v2.0.2
 - src: andrewrothstein.go-dev
-  version: v2.2.2
+  version: v2.2.3
 - src: andrewrothstein.scala
   version: v2.1.2
 - src: andrewrothstein.miniconda
